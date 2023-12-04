@@ -19,7 +19,7 @@ const customStyles = {
   },
 };
 
-export default function arrivalsCard() {
+export default function ArrivalsCard() {
   const [tastyData, setTastyData] = useState(null);
   const [error, setError] = useState(null);
   const [modalIsOpen, setIsOpen] = React.useState(false);

@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import Image from "next/image";
 import styles from "../styles/MacroCard.module.css";
 
-export default function macroCard(props) {
+export default function MacroCard(props) {
   const [calories, setCalories] = useState(0);
 
   const [carbs, setCarbs] = useState(0);

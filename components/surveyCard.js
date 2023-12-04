@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/Arrivals.module.css";
 import { toast } from "react-toastify";
 
-export default function surveyCard() {
+export default function SurveyCard() {
   const [tastyData, setTastyData] = useState(null);
   const [menuItem, setMenuItem] = useState("");
   const [shortDescription, setShortDescription] = useState("");
