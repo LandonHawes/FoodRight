@@ -62,7 +62,10 @@ export default function SurveyCard() {
               <div className="row text-center d-flex justify-content-center">
                 <form>
                   <div className="col-12 mt-5">
-                    <label className={`${styles.menuItem} mb-2`} for="menuItem">
+                    <label
+                      className={`${styles.menuItem} mb-2`}
+                      htmlFor="menuItem"
+                    >
                       Menu Item:
                     </label>
                     <input
@@ -78,7 +81,7 @@ export default function SurveyCard() {
                   <div className="col-12">
                     <label
                       className={`${styles.menuItem} mb-2`}
-                      for="description"
+                      htmlFor="description"
                     >
                       Short Description:
                     </label>

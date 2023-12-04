@@ -18,7 +18,7 @@ export default function CardSection() {
               <p className={styles.cardTitle}>Grilled Chicken Sandwhich</p>
               <p className={styles.cardText}>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card&#39;s content.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function CardSection() {
 
               <p className={styles.cardText}>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card&#39;s content.
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function CardSection() {
 
               <p className={styles.cardText}>
                 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                the bulk of the card&#39;s content.
               </p>
             </div>
           </div>

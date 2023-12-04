@@ -219,7 +219,7 @@ export default function ArrivalsCard() {
                 <div className="container my-5">
                   <div className="row text-center">
                     {tastyData.map((recipe) => (
-                      <div className="col-6">
+                      <div key={recipe.name} className="col-6">
                         <Image
                           className="image-card"
                           src={recipe.thumbnail_url}
@@ -269,7 +269,7 @@ export default function ArrivalsCard() {
               </p>
               <form>
                 <div className="form-group">
-                  <label className="p-blog" for="email">
+                  <label className="p-blog" htmlFor="email">
                     Email address:
                   </label>
                   <input

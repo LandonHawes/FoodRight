@@ -19,7 +19,7 @@ export default function Footer() {
                 provides a diverse range of options, from vibrant salads to
                 protein-packed bowls. FoodRight aims to make mindful eating
                 easy, appealing to fitness enthusiasts and health-conscious
-                individuals alike. It's your go-to service for a satisfying,
+                individuals alike. It&#39;s your go-to service for a satisfying,
                 guilt-free dining experience.
               </p>
             </div>
