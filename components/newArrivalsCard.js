@@ -118,7 +118,7 @@ export default function arrivalsCard() {
         <div
           className={`${styles.newarrivalwidth} shadow-lg p-3 mb-5 bg-white rounded`}
         >
-          <div class="card">
+          <div className="card">
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="row text-center mt-5">
@@ -173,7 +173,7 @@ export default function arrivalsCard() {
         <div
           className={`${styles.newarrivalwidth} shadow-lg p-3 mb-5 bg-white rounded`}
         >
-          <div class="card">
+          <div className="card">
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="row text-center mt-5">
@@ -216,17 +216,17 @@ export default function arrivalsCard() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
-                <div class="container my-5">
+                <div className="container my-5">
                   <div className="row text-center">
                     {tastyData.map((recipe) => (
                       <div className="col-6">
                         <Image
-                          class="image-card"
+                          className="image-card"
                           src={recipe.thumbnail_url}
                           width="400px"
                           height="400px"
                         />
-                        <div class="card-body">
+                        <div className="card-body">
                           <p className={styles.foodtitle}>{recipe.name}</p>
                         </div>
                       </div>
@@ -247,34 +247,34 @@ export default function arrivalsCard() {
         contentLabel="Example Modal"
         id={"signup-Modal"}
       >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
               <h5 className="modal-title" id="newsletterModalLabel">
                 FoodRight Signup
               </h5>
               <button
                 type="button"
-                class="close"
+                className="close"
                 aria-label="Close"
                 onClick={() => closeModal()}
               >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <p className="p-blog">
                 Sign up for our newsletter to receive updates and exclusive
                 offers:
               </p>
               <form>
-                <div class="form-group">
+                <div className="form-group">
                   <label className="p-blog" for="email">
                     Email address:
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}

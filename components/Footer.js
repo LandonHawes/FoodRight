@@ -6,11 +6,11 @@ export default function Footer() {
     <footer
       className={`${styles.footerbackground} text-center text-lg-start text-white`}
     >
-      <div class="container p-4 pb-0">
-        <section class="">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase useFont">FoodRight</h5>
+      <div className="container p-4 pb-0">
+        <section className="">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 className="text-uppercase useFont">FoodRight</h5>
 
               <p className="useFont">
                 FoodRight is a game-changer in healthy food delivery, offering a
@@ -24,10 +24,10 @@ export default function Footer() {
               </p>
             </div>
 
-            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 className="text-uppercase">Links</h5>
 
-              <ul class="list-unstyled mb-0">
+              <ul className="list-unstyled mb-0">
                 <li>
                   <Link href="/">
                     <a className={`${styles.linkB} nav-link`}>Home</a>
@@ -54,9 +54,9 @@ export default function Footer() {
         </section>
       </div>
 
-      <div class="text-center p-3 useFont">
+      <div className="text-center p-3 useFont">
         © 2023 Copyright:
-        <a class="text-white useFont"> FoodRight</a>
+        <a className="text-white useFont"> FoodRight</a>
       </div>
     </footer>
   );

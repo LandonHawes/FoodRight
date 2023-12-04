@@ -31,7 +31,7 @@ export default function surveyCard() {
       <div
         className={`${styles.newarrivalwidth} shadow-lg p-3 mb-5 bg-white rounded`}
       >
-        <div class="card">
+        <div className="card">
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="row text-center mt-3">
