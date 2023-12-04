@@ -1,0 +1,316 @@
+.sortby {
+  margin-left: 70%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orderpagemargin {
+  margin-top: 5%;
+}
+
+.orderingcard1 {
+  background: #ece9e9 !important;
+  max-width: 60rem;
+  /* max-height: 44rem; */
+  margin-left: auto;
+  border: none;
+  border-radius: 18px;
+  padding-bottom: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.numbercaloriesmeal {
+  margin-top: 3%;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numbercaloriesmeal2 {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-left: 2.3rem;
+  margin-top: -6px;
+  color: #050505;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orderingHr {
+  margin: 0.5rem auto 1rem auto;
+  width: 95%;
+}
+
+.mealnametag {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 23%;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mealpricetag {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 6%;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.groupmealtag {
+  margin-bottom: 2%;
+  margin-top: 2%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* display: flex; */
+  align-items: center;
+}
+
+.nameofmealtag {
+  font-size: 18px;
+
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cartBTN {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 3%;
+  color: #475dac;
+  border-radius: 28px;
+  padding: none !important;
+  /* background-color: transparent !important; */
+  background: #8d2a24;
+  color: white;
+  border: none !important;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cartBTN:hover {
+  color: black;
+}
+
+.checkoutcard {
+  background-color: #ece9e9;
+  max-width: 60rem;
+  max-height: 44rem;
+  border: none;
+  border-radius: 18px;
+}
+
+.arrow {
+  border: none !important;
+  background-color: #ece9e9;
+}
+
+.fooddetailsname {
+  margin-top: -6%;
+  font-size: 36px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foodpicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.foodpicture2 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.slidertitles {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slidertitletext {
+  margin-bottom: 0px;
+}
+
+.slider[type="range"] {
+  -webkit-appearance: none;
+  height: 7px;
+  background: grey;
+  border-radius: 5px;
+  background-image: linear-gradient(#d46a6a, #d46a6a);
+  background-repeat: no-repeat;
+}
+
+.slider[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #d46a6a;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+.slider[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+.slider1[type="range"] {
+  -webkit-appearance: none;
+  height: 7px;
+  background: grey;
+  border-radius: 5px;
+  background-image: linear-gradient(#d46a6a, #d46a6a);
+  background-repeat: no-repeat;
+}
+
+.slider1[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #d46a6a;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+.slider1[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+.slider2[type="range"] {
+  -webkit-appearance: none;
+  height: 7px;
+  background: grey;
+  border-radius: 5px;
+  background-image: linear-gradient(#d46a6a, #d46a6a);
+  background-repeat: no-repeat;
+}
+
+.slider2[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #d46a6a;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+.slider2[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+.foodbreakdown {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fooddetailtext {
+  font-size: 17px;
+  font-weight: medium;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.buttonmargin {
+  margin-top: 2%;
+  width: 50%;
+}
+
+.orderingcard2 {
+  background: #ece9e9 !important;
+
+  max-width: 24rem;
+  max-height: 22rem;
+  border: none;
+  border-radius: 28px;
+  min-height: 21rem;
+}
+
+.piechartimg {
+  width: 70%;
+  margin: auto;
+}
+
+.macropercentstyle {
+  padding-right: 5%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.macrospancarb {
+  background-color: rgba(75, 192, 192, 1);
+  color: white;
+  padding: 3px;
+  border-radius: 6px;
+  padding-bottom: 4px;
+  font-weight: 500;
+}
+
+.macrospanfat {
+  background-color: #50af95;
+  color: white;
+  padding: 3px;
+  border-radius: 6px;
+  padding-bottom: 4px;
+  font-weight: 500;
+}
+
+.macrospanproteins {
+  background-color: #ccf0f9;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 6px;
+  padding-bottom: 4px;
+}
+
+.adjustbtn {
+  background: none;
+  border: none;
+  margin: 0;
+  padding-bottom: 5px;
+  cursor: pointer;
+  color: #3054d4;
+}
+
+.orderingcard3 {
+  background: #ece9e9 !important;
+  max-width: 24rem;
+  max-height: 22rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 28px;
+  min-height: 21rem;
+}
+
+.calorieLabel {
+  font-size: 16px;
+  text-transform: lowercase;
+  margin: 15px 0 0 20px;
+  color: #555;
+  font-weight: 500;
+}
+
+.calorieTotalCard {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 500;
+  margin-top: 20%;
+}

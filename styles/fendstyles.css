@@ -1,0 +1,151 @@
+.Mtop {
+  margin-bottom: 5%;
+  margin-left: 1%;
+}
+
+@media (hover: hover) {
+  #creditcard {
+    /*  set start position */
+    transform: translateY(110px);
+    transition: transform 0.1s ease-in-out;
+    /*  set transition for mouse enter & exit */
+  }
+
+  #money {
+    /*  set start position */
+    transform: translateY(180px);
+    transition: transform 0.1s ease-in-out;
+    /*  set transition for mouse enter & exit */
+  }
+
+  button:hover #creditcard {
+    transform: translateY(0px);
+    transition: transform 0.2s ease-in-out;
+    /*  overide transition for mouse enter */
+  }
+
+  button:hover #money {
+    transform: translateY(0px);
+    transition: transform 0.3s ease-in-out;
+    /*  overide transition for mouse enter */
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.25rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.button:hover .button__text span {
+  transform: translateY(-0.25rem);
+  transition: transform 0.2s ease-in-out;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: purple;
+  position: relative;
+  border-radius: 8px;
+  letter-spacing: 0.7px;
+  background-color: #50bd68;
+  color: #fff;
+  font-size: 26px;
+  font-family: Manrope;
+  cursor: pointer;
+  box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button__svg {
+  position: absolute;
+  overflow: visible;
+  bottom: 6px;
+  right: 0.2rem;
+  height: 140%;
+}
+
+.navtogglercolor {
+  background-color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .macrolabelcarbs {
+    margin-left: 5px;
+  }
+  .macrolabel {
+    margin-right: 5px;
+  }
+  .inputtextstyle {
+    font-size: 15px;
+  }
+}
+
+/* .removebtn {
+  font-size: 20px;
+  font-family: sans-serif;
+
+  color: #475dac;
+  border-radius: 28px;
+  padding: none !important;
+
+  background: #8d2a24;
+  color: white;
+  border: none !important;
+  padding: 7px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -8%;
+} */
+
+.favorite-meals-tag {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Manrope;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hr-line {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.modal-sub-btn {
+  margin-top: 10px;
+}
+
+.image-card {
+  border-radius: 10px;
+}
+
+.useFont {
+  font-family: Manrope;
+}

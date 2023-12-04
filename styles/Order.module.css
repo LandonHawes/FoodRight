@@ -1,0 +1,20 @@
+.headertext {
+  font-size: 60px;
+  text-align: left;
+  color: #ffffff;
+  font-family: Manrope;
+}
+
+.ptags {
+  margin-top: 3%;
+  font-size: 20px;
+  color: rgb(255, 231, 187);
+  font-family: Manrope;
+}
+
+.numbercaloriesmeal {
+  margin-top: 3%;
+  font-size: 20px;
+  color: rgb(255, 231, 187);
+  font-family: Manrope;
+}

@@ -1,0 +1,173 @@
+.testcard2 {
+  max-width: 40%;
+  /* height: 46rem; */
+  margin: auto;
+  border: none;
+  border-radius: 18px;
+  overflow-x: hidden;
+  background: #ece9e9 !important;
+  margin-top: 2%;
+}
+
+.inputheader {
+  font-family: Manrope;
+  font-weight: 500;
+}
+
+.inputtextstylecard2 {
+  font-size: 20px;
+  font-family: Manrope;
+}
+
+.testcard1 {
+  max-width: 40%;
+  /* height: 46rem; */
+  width: 90%;
+  margin: auto;
+  border: none;
+  border-radius: 18px;
+  overflow-x: hidden;
+  background: #ece9e9 !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .testcard1 {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .testcard1 {
+    max-width: 100%;
+  }
+}
+
+.formcardheader {
+  margin-top: 12px;
+}
+
+.macrogoalstxt {
+  color: rgb(0, 0, 0);
+  font-size: 44px;
+  font-weight: 500;
+  font-family: Manrope;
+}
+
+.calorielabel {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 12px;
+  padding: 2px;
+  max-width: 40%;
+  max-height: 90%;
+}
+
+.decreaseBtn :first-child {
+  margin-top: 10px;
+}
+.decreaseBtnIcon {
+  width: 20px;
+  margin-top: 100px;
+}
+.decreaseBtn {
+  width: 100%;
+  border: unset;
+}
+
+.macrolabel {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 6px;
+}
+
+.macroinput {
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  /* width: 55%; */
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 4px;
+}
+
+.caloriesubmitbutton {
+  margin: auto;
+  padding: 15px 50px;
+  font-size: 1.5rem;
+  border-radius: 28px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  background-color: #8d2a24;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  margin-top: 6%;
+}
+.caloriesubmitbutton:hover {
+  background-color: #8d2a24;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+}
+
+.formulaheader {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  padding: 5px 10px;
+  font-family: Manrope;
+  text-align: center;
+}
+
+.formulatext {
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  /* font-family: sans-serif; */
+  font-family: Manrope;
+  padding: 0 14px;
+  text-align: center;
+}
+
+.caloriemacroinput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  background-color: transparent;
+  border-bottom: none;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  max-width: 60%;
+  text-align: center;
+  justify-content: center;
+}
+
+.caloriemacroinput:focus {
+  outline: none;
+}
+
+.caloriemacroinput::-webkit-inner-spin-button {
+  display: none;
+}
+
+.totaltxtstyle {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.kcaltxtstyle {
+  margin-left: 70%;
+  color: #555;
+}
+
+.increaseBtn {
+  width: 100%;
+  border: unset;
+}

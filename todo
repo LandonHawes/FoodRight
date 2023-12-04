@@ -1,0 +1,5 @@
+1. Fix issue that can occur when logged in and moving to stripe checkout page user will be shown as not logged in and moved back to home page, then without needing to re log-in they can go through flow againa and be able to checkout
+
+2. Eventually add methods to allows users to remove and possibly add new ingredients to their meal
+
+3. Add Toast notification to show user their order has been placed

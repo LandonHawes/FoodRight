@@ -1,0 +1,25 @@
+html,
+body {
+  background: #ffffff !important;
+  height: 100%;
+}
+
+html body,
+#__next {
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth !important;
+  /* background: linear-gradient(to top right, #fff9f9, #cc8b8b) !important; */
+  /* background-image: src= "assets\images\pexels-lukas-616401.jpg"; */
+  height: 100%;
+  width: 100%;
+  /* overflow-y: hidden; */
+  /* overflow: auto; */
+  overflow-x: hidden;
+  background: radial-gradient(circle, #677a89, #f8f8f8);
+}
+
+@media only screen and (max-width: 1030px) {
+  .picture-media-q {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+.harrival {
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.parrival {
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.foodtitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Manrope;
+}
+
+.newarrivalwidth {
+  width: 90%;
+}
+
+.menuItem {
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menuInput {
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  width: 95%;
+  height: 50px;
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 10px;
+}

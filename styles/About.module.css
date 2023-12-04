@@ -1,0 +1,51 @@
+
+
+.headerone {
+  font-family: Manrope;
+  margin-top: 50px;
+  font-size: 70px;
+  background-color: #cc1f1f;
+  background-image: #CC1F1F);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+.steps {
+  margin-top: 3%;
+  font-size: 32px;
+  color: #2f306d;
+  font-family: Manrope;
+  /* text-decoration: underline; */
+}
+
+.ptags {
+  margin-top: 3%;
+  font-size: 20px;
+  color: #030303;
+  font-family: Manrope;
+}
+
+.heading{
+  margin-top: 3%;
+  font-size: 60px;
+  color: #2f306d;
+  font-family: Manrope;
+  margin-bottom: 3%;
+}
+
+.aboutrow{
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.aboutcontainer {
+  width: 60%;
+}
+
+.nav{
+  text-align: center;
+}

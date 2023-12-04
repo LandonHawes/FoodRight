@@ -1,0 +1,138 @@
+.link {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: 500 medium;
+  color: rgba(71, 69, 69, 0);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Manrope;
+}
+
+.linkHome {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: 500 medium;
+  color: rgba(71, 69, 69, 0);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 100px;
+  font-family: Manrope;
+}
+
+.brand {
+  margin-top: 5px;
+  min-width: 100px;
+}
+
+.login {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #ff0000;
+  font-weight: 500 medium;
+  cursor: pointer;
+  margin-left: 800px;
+  font-family: Manrope;
+}
+
+.signup {
+  margin-left: 50px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(248, 107, 107);
+  color: #ffffff;
+  font-weight: 500 medium;
+  cursor: pointer;
+  border-radius: 28px;
+  width: 130px;
+  height: 50px;
+  padding: 10px 10px 12px 10px;
+  font-family: Manrope;
+}
+
+.linkHomeB {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Manrope;
+  color: white;
+}
+
+.linkHomeB:focus {
+  color: #000000;
+}
+
+.linkHomeB:hover {
+  color: #000000;
+}
+
+.linkB {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 40px;
+  font-family: Manrope;
+  color: white;
+}
+
+.linkB:focus {
+  color: #000000;
+}
+
+.linkB:hover {
+  color: #000000;
+}
+
+.signupbutton {
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(248, 107, 107);
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 28px;
+  width: 130px;
+  height: 50px;
+  padding: 10px 10px 12px 10px;
+  margin-left: 50px;
+  font-family: Manrope;
+}
+
+.loginbutton {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+  font-family: Manrope;
+  padding: 10px 10px 12px 10px;
+}
+
+.loginbutton:focus {
+  color: #000000;
+}
+
+.loginbutton:hover {
+  color: #000000;
+}
+
+.navbackground {
+  background-color: rgb(100, 100, 100);
+}
+
+.signupbutton:focus {
+  color: #000000;
+}
+
+.signupbutton:hover {
+  color: #000000;
+}
