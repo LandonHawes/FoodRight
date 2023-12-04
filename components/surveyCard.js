@@ -100,7 +100,7 @@ export default function SurveyCard() {
                 <div className="col-12">
                   <button
                     type="submit"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={handleSubmit}
                   >
                     Submit
